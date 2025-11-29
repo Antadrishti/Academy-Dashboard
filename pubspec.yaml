@@ -1,0 +1,73 @@
+name: sai_talent_platform
+description: SAI Talent Platform - Academy and Athlete Management System
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # Localization - Google ML Kit for automatic translation
+  flutter_localizations:
+    sdk: flutter
+  google_mlkit_translation: ^0.11.0
+  
+  # State Management
+  provider: ^6.1.1
+  
+  # HTTP & API
+  http: ^1.1.0
+  dio: ^5.4.0
+  
+  # Local Database
+  sqflite: ^2.3.0
+  path: ^1.8.3
+  
+  # Authentication & Security
+  shared_preferences: ^2.2.2
+  crypto: ^3.0.3
+  
+  # Image & Media
+  image_picker: ^1.0.5
+  video_player: ^2.8.1
+  camera: ^0.10.5+5
+  
+  # UI Components
+  flutter_svg: ^2.0.9
+  cached_network_image: ^3.3.0
+  shimmer: ^3.0.0
+  
+  # Charts & Analytics
+  fl_chart: ^0.65.0
+  
+  # PDF Generation
+  pdf: ^3.10.7
+  printing: ^5.12.0
+  
+  # Location
+  geolocator: ^10.1.0
+  
+  # Date & Time
+  intl: ^0.20.2
+  
+  # File Handling
+  path_provider: ^2.1.1
+  
+  # Utilities
+  uuid: ^4.2.1
+  equatable: ^2.0.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.1
+
+flutter:
+  uses-material-design: true
+  
+  assets:
+    - assets/images/
+    - assets/icons/
