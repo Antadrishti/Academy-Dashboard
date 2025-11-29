@@ -1897,3 +1897,4 @@ class ProgressChartPainter extends CustomPainter {
   bool shouldRepaint(covariant CustomPainter oldDelegate) => false;
 }
 
+

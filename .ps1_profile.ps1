@@ -31,3 +31,4 @@ if ($PWD.Path -eq $flutterProjectPath -or $PWD.Path.StartsWith($flutterProjectPa
     }
 }
 
+

@@ -32,3 +32,4 @@ Write-Host "  GRADLE_USER_HOME: $env:GRADLE_USER_HOME" -ForegroundColor Cyan
 Write-Host ""
 Write-Host "You can now use 'flutter run' directly!" -ForegroundColor Yellow
 
+
